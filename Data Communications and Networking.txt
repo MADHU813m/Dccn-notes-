@@ -1,0 +1,102 @@
+Data Communications and Networking 
+
+
+1.What is Data Communication?
+
+2.Define Transmission Impairments.
+
+3.Explain the concept of Channel Capacity.
+
+4.Differentiate between Analog and Digital Data.
+
+5.List and explain the Guided Transmission Media.
+
+6.Explain the Communication Model with a neat diagram.
+
+7.Describe the need for a Protocol Architecture in Data Communication.
+
+8.Explain the OSI Model and its layers.
+
+9.What are the advantages and limitations of the TCP/IP Model?
+
+10.Explain Line-of-Sight Transmission and its importance in wireless communication.
+
+11.Define Network and its types.
+
+12.What is meant by Data Transmission?
+
+13.Explain Asynchronous and Synchronous Transmission.
+
+14.Define Error Detection and Error Correction.
+
+15.What is a Data Communication Interface?
+
+16.Discuss various Transmission Impairments and their effects on data transmission.
+
+17.Explain the working of Wireless Transmission and Propagation.
+
+18.Describe the Error Control mechanism in Data Link Control Protocols.
+
+19.Explain Flow Control with examples.
+
+20.What are the different types of Errors in data communication? Explain with examples.
+
+21.Define the Internet and its importance in Data Communication.
+
+22.What is Multimedia in Networking?
+
+23.Explain the concept of Signal Encoding.
+
+24.Differentiate between Digital and Analog Signals.
+
+25.What is meant by Standardization within a Protocol Architecture?
+
+26.Explain various Data Link Control Protocols in detail.
+
+27.Discuss the High-Level Data Link Control (HDLC) protocol and its frame structure.
+
+28.Describe the Analog to Digital Conversion process.
+
+29.Explain Guided and Unguided Transmission Media with examples.
+
+30.Discuss the types of Network Topologies and their advantages.
+
+31.What is meant by Transmission Media?
+
+32.Define Line Configurations.
+
+33.Explain the concept of Flow Control.
+
+34.What is Error Control and why is it required?
+
+35.Differentiate between Serial and Parallel Transmission.
+
+36.Explain Digital Data, Digital Signals and Digital Data, Analog Signals with examples.
+
+37.Describe various Signal Encoding Techniques.
+
+38.Explain the concept of Channel Capacity and Shannon’s Theorem.
+
+39.Discuss various Wireless Propagation methods.
+
+40.Explain Data Link Layer functionalities and responsibilities.
+
+41.Define a Communication Model.
+
+42.What is the need for a Protocol Architecture?
+
+43.Explain Synchronous and Asynchronous Transmission.
+
+44.List and explain types of Transmission Impairments.
+
+45.Define and explain the term ‘Bandwidth’.
+
+46.Explain OSI and TCP/IP models and compare them.
+
+47.Describe Error Detection and Correction techniques in detail.
+
+48.Explain Wireless Transmission and Line-of-Sight communication.
+
+49.What are the different Flow Control techniques?
+
+50.Explain the role of Data Link Control Protocols in reliable data transmission.
