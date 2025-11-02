@@ -1,0 +1,145 @@
+OSI LAYERs
+	Application
+	Presentation
+	Session
+	Transport
+	Network
+	Data Link
+	Physical layers
+
+Data Link Layer
+
+	The data link layer is needed to ensure reliable and efficient data transfer between two directly connected nodes by 	handling framing, physical addressing, flow control, and error detection
+
+
+
+Data Link Layer
+
+ Logical Link Control (LLC) 
+ Media Access Control (MAC)
+
+
+Sublayers
+Logical Link Control (LLC) Sublayer: 
+	This is the upper sublayer that provides a logical link between devices. It handles the flow control, error 	checking, and synchronization of data frames. 
+
+Media Access Control (MAC) Sublayer: 
+	This is the lower sublayer that manages how devices access the physical medium. It is responsible for MAC addresses, which are used for unique device 	identification, and for controlling access to the network to prevent 	collisions. 
+
+
+
+Protocols
+Ethernet (IEEE 802.3): A common protocol for wired local area networks (LANs) that operates at the MAC sublayer. 
+Wi-Fi (IEEE 802.11): The standard for wireless LANs. 
+Point-to-Point Protocol (PPP): Used to transmit data over serial links, such as those used in dial-up connections. 
+High-Level Data Link Control (HDLC): A bit-oriented data link-layer protocol that can be used in point-to-point and multipoint connections. 
+Serial Line Internet Protocol (SLIP): An older protocol for transmitting IP packets over serial connections
+
+
+
+Mac is the interface between llc and the physical layer
+
+
+
+MAC
+	Random Access Protocol
+	Controlled Access Protocol
+	channelization protocol
+
+
+
+Random Access Protocol
+	ALOHA	
+		Pure ALOHA
+		Slotted ALOHA
+	CSMA
+	CSMA/CD
+	CSMA/CA
+	
+
+Controlled Access Protocol
+	Reservation
+	Polling
+	Token Passing
+	
+Channelization Protocol
+	FDMA
+	TDMA
+	CDMA
+
+
+
+
+
+
+✅ 1) Random Access Protocol
+
+Nodes transmit whenever they want. Collisions may occur.
+
+✅ ALOHA
+
+Full form: — (Not an acronym)
+Definition: A simple communication protocol where a station sends data whenever it has data. If collision occurs, data is resent.
+
+🔹 Pure ALOHA
+
+A station transmits anytime without checking the channel.
+If a collision happens, the station waits a random time and retransmits.
+
+🔹 Slotted ALOHA
+
+Time is divided into equal time slots.
+A station can send only at the start of a time slot → reduces collisions → better efficiency.
+
+✅ CSMA
+
+Full form: Carrier Sense Multiple Access
+Definition: A device first listens to the channel; if no one is transmitting, it sends data.
+
+✅ CSMA/CD
+
+Full form: Carrier Sense Multiple Access / Collision Detection
+Definition: Used in wired Ethernet. A station listens before sending & detects collisions during transmission. If collision occurs, sending stops and retransmission happens.
+
+✅ CSMA/CA
+
+Full form: Carrier Sense Multiple Access / Collision Avoidance
+Definition: Used in wireless LAN (Wi-Fi). A station tries to avoid collisions using techniques like back-off timers.
+
+✅ 2) Controlled Access Protocol
+
+Only one device can transmit at a time, controlled by rules → reduces collisions.
+
+✅ Reservation
+
+Stations reserve the channel before sending data.
+Reserved slots prevent collision.
+
+✅ Polling
+
+A central controller asks each device one by one if it has data to send.
+The device sends only when asked → no collisions.
+
+✅ Token Passing
+
+A small frame called a token circulates in the network.
+Only the device holding the token can send data → no collisions.
+
+✅ 3) Channelization Protocol
+
+Bandwidth is shared among multiple users without collision.
+
+✅ FDMA
+
+Full form: Frequency Division Multiple Access
+Definition: Channel bandwidth is divided into frequency bands; each user gets a different frequency.
+
+✅ TDMA
+
+Full form: Time Division Multiple Access
+Definition: Channel time is divided into time slots; each user gets a time slot.
+
+✅ CDMA
+
+Full form: Code Division Multiple Access
+Definition: All users share the channel at the same time but use unique codes to separate their signals.
